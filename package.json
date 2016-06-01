@@ -1,0 +1,15 @@
+{
+  "name": "http-2-node-js",
+  "version": "0.0.1",
+  "description": "Vagrant setup to test HTTP 2.0 with Node JS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Pixelcode",
+  "license": "ISC",
+  "dependencies": {
+    "http2": "^3.3.4"
+  }
+}
